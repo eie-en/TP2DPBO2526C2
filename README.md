@@ -36,3 +36,35 @@ Jadi di sini, aku buat design multilevel inheritance dengan temanya Produk Minum
    - **JenisSusu**. Jenis susunya gajauh beda sama yang kopi, full cream kah, oat kah lalayeyee
 
 ## .✦ ݁˖ Method
+Berikut adalah penjelasan lengkap mengenai *methods* yang dibuat pada program C++ bertema **Multilevel & Hierarchical Inheritance** produk minuman:
+
+1. Getter & Setter
+   Ada di setiap kelas. Karna tiap atributnya private, dibutuhin getter untuk mendapatkan nilai dari atribut dan membutuhkan setter untuk write dari atribut yang ada.
+
+2. addLatte() di KopiLatte
+   bisa dipanggil langsung tanpa menginstansiasi objek baru terlebih dahulu. Fungsinya menerima input data dari user untuk nambah objek di kopilatte
+
+3. addBoba() di BobaMilkTea
+   Sama kayak addlatte, tapi ini khusus milk tea yeah
+
+4. displayTabelSemuaData()
+   Fungsinya buat nampilin semua objek dari kopi sama teh jadi satu tabel dinamis nyeaaa
+
+5. main
+   Nambah 5 objek dummy pas awal ke dalam masing masing kelas. Menampilkan menu 1.show/2.add boba/3.add kopi yang akan loop sampe ada input 'malas'.
+
+## .✦ ݁˖ Alur Kode
+1. Inisialisasi Program & Alokasi Data Awal
+   yang awal banget tentu manggil library sama kelas kelas yang tadi udah dibuat. Lalu kita inisialisasi data dummy yang 5
+
+2. Menu Interaktif & Pembacaan Input
+   - Tampilin teks awal(header) dulu, habistu masuk infinite loop. Loop cuma berenti kalo ada input 'malas'
+   - Print menuuu show, add boba, add kopi, atau malas (keluar)
+
+3. Eksekusi Berdasarkan Pilihan User
+   - Opsi Show
+     Program manggil fungsi display untuk show semua objek yang ada di dalem tabel dinamis hoyeah. Data objeknya ni diambil dari KopiLatte dan BobaMilktea pake getter dari kelas king, atributnya tuh diambil dari atas banget tuh dari grandparentnya jadi satu. Diitung maksimal panjang masing masing isi atributnya, cetak header cetak garis tabelnya, lalu isinya.
+   - Opsi Add Latte/Milk Tea
+     Manggil fungsi AddLatte/AddBoba. Setelah ada input untuk kode, dicocokin dulu tuh ada kembar apa ngganya. Setelah itu user diminta lengkapin atribut lainnya. Harga bentuknya harus integer ya, atau ga dapat pesan cinta. Udah begitu, data yang baru bisa dipush ke array latte/boba yang adaaaa.
+   - Opsi Malas
+     Ada keluar pesan "oke dadah". Menghentikan while loop yang ada, dan dadaaahh programnya selesai
