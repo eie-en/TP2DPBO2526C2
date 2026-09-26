@@ -1,4 +1,8 @@
 # ⡞⠳⣄⣀⣠⠞⢷ ֹ۪
+<p align="center">
+  <✦•┈๑⋅⋯ ⋯⋅๑┈•✦>
+</p>
+    
 Saya Aghni Lutvia Sari dengan NIM 2508921 mengerjakan TP2
 dalam mata kuliah DPBO untuk keberkahanNya maka saya
 tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
@@ -68,3 +72,7 @@ Berikut adalah penjelasan lengkap mengenai *methods* yang dibuat pada program C+
      Manggil fungsi AddLatte/AddBoba. Setelah ada input untuk kode, dicocokin dulu tuh ada kembar apa ngganya. Setelah itu user diminta lengkapin atribut lainnya. Harga bentuknya harus integer ya, atau ga dapat pesan cinta. Udah begitu, data yang baru bisa dipush ke array latte/boba yang adaaaa.
    - Opsi Malas
      Ada keluar pesan "oke dadah". Menghentikan while loop yang ada, dan dadaaahh programnya selesai
+
+<p align="center">
+  <✦•┈๑⋅⋯ ⋯⋅๑┈•✦>
+</p>
