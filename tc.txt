@@ -1,0 +1,25 @@
+1
+2
+L004
+Hazelnut Oat Latte
+42000
+L
+Arabika
+Flores
+Sedang
+Oat
+Sedang
+Ya
+3
+B003
+Earl Grey Boba
+28000
+M
+Earl Grey
+Darjeeling
+30%
+Grass Jelly
+Less Ice
+Full Cream
+1
+malas
