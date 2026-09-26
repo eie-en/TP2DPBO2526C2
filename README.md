@@ -38,19 +38,19 @@ Jadi di sini, aku buat design multilevel inheritance dengan temanya Produk Minum
 ## .✦ ݁˖ Method
 Berikut adalah penjelasan lengkap mengenai *methods* yang dibuat pada program C++ bertema **Multilevel & Hierarchical Inheritance** produk minuman:
 
-1. Getter & Setter
+1. **Getter & Setter**.
    Ada di setiap kelas. Karna tiap atributnya private, dibutuhin getter untuk mendapatkan nilai dari atribut dan membutuhkan setter untuk write dari atribut yang ada.
 
-2. addLatte() di KopiLatte
+2. **addLatte() di KopiLatte**.
    bisa dipanggil langsung tanpa menginstansiasi objek baru terlebih dahulu. Fungsinya menerima input data dari user untuk nambah objek di kopilatte
 
-3. addBoba() di BobaMilkTea
+3. **addBoba() di BobaMilkTea**.
    Sama kayak addlatte, tapi ini khusus milk tea yeah
 
-4. displayTabelSemuaData()
+4. **displayTabelSemuaData()**.
    Fungsinya buat nampilin semua objek dari kopi sama teh jadi satu tabel dinamis nyeaaa
 
-5. main
+5. **main**.
    Nambah 5 objek dummy pas awal ke dalam masing masing kelas. Menampilkan menu 1.show/2.add boba/3.add kopi yang akan loop sampe ada input 'malas'.
 
 ## .✦ ݁˖ Alur Kode
