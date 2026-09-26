@@ -24,3 +24,15 @@ Jadi di sini, aku buat design multilevel inheritance dengan temanya Produk Minum
    - **JenisSusu**. Latte pake susu, jenis susunya apa oat, atau sapi, atau kambing, atauataauauauaua
    - **BusaSusu**. Ini lebih ke foam tickness, apakah dia tebal, sedang, tipis.
    - **EkstraShot**. Kopinya ekstra shot yes or no. Another kastemer kejang kejang no no
+
+4. MinumanTeh sebagai Parent, kelas tingkat 2. Tidak semua orang suka kopi, jadi kita sediakan teh dengan atribut tentang teh :
+   - **JenisDaunTeh**. Jenis daun teh nya apa, melati kah atau apapa oolong gitu
+   - **AsalDaunTeh**. Asal daerah daun tehnya
+   - **TingkatKemanisan**. Tingkat kemanisan dengan %, paling rendah 0%(tawar) 100% paling manis rek.
+
+5. BobaMilkTea anaknya MinumanTeh. Yaaa atributnya tentu khusus varian boba milk tea hoyeaahhhh
+   - **Topping**. Bisa aja kalo mau nambah topping kayak grass jelly whatsoever ataupun ekstra boba wow
+   - **IceLevel**. Less ice, full ice apapun itu intinya selera banyak es nya
+   - **JenisSusu**. Jenis susunya gajauh beda sama yang kopi, full cream kah, oat kah lalayeyee
+
+## .✦ ݁˖ Method
